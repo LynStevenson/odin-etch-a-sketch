@@ -1,0 +1,39 @@
+* {
+    box-sizing: border-box;
+}
+
+:root {
+    --box-size: 100px;
+}
+
+span {
+    display: flex;
+    margin: auto;
+    margin-bottom: 10px;
+    justify-content: center;
+    gap: 18px;
+    font-size: 50px;
+}
+
+#sizePrompt {
+    padding: 8px;
+    box-shadow: 3px 3px #000000B0;
+    background-color: skyblue;
+    font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    font-size: 25px;
+}
+
+#container {
+    display: flex;
+    flex-wrap: wrap;
+    width: 400px;
+    height: 400px;
+    margin: auto;
+}
+
+#container div {
+    width: var(--box-size);
+    height: var(--box-size);
+    background-color: aqua;
+}
+
